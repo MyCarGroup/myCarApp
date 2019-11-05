@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btnAC"
+            android:layout_width="match_parent"
+            android:layout_height="25pt"
+            android:layout_margin="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/green_button"
+            android:onClick="ajouter"
+            android:text="Ajoutée"
+            android:textColor="#ff06071c" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
